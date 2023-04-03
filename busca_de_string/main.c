@@ -9,10 +9,10 @@ int main(){
 	
 	fgets(a, sizeof(a), stdin);
 	fgets(b, sizeof(b), stdin);
-	
+
 	len_a = strlen(a);
 	len_b = strlen(b);
-	
+		
 	for(i = 0; i < (len_b - len_a + 2); i++){
 		tem=1;
 		for(j = 0; j < len_a - 1; j++){
@@ -26,7 +26,6 @@ int main(){
 			qnt ++;
 		}
 	}
-	
 
 	printf("%d\n", qnt);
 
